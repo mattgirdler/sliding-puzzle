@@ -1,3 +1,7 @@
+// NOTE - This script is not used in the presented solution
+// 	  I wrote this to split the image into tiles programatically, 
+//        but it caused too many problems so I saved the images individually.
+
 var loadTimer;
 var imgObject = new Image();
 imgObject.src = "https://dl.dropboxusercontent.com/s/xxmge8177fn04aw/featurecoffee-768x768.jpg?dl=1"
