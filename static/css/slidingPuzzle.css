@@ -1,0 +1,32 @@
+.main {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.tiles-container {  
+    display: grid;
+    grid-template-columns: repeat(3, 128px);
+    grid-template-rows: repeat(3, 128px);
+    grid-gap: 2px;
+    margin: auto;
+    width: 384px;
+    height: 384px;
+    padding-bottom: 50px;
+  }
+
+.shuffle-button {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 25px;
+  width: 100px;
+}
+
+.shuffle-button:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.shuffle-button:active {
+  color: white;
+}
